@@ -49,8 +49,3 @@ Saida em Morse: `--- .-.. .- / ..--- ----- ..--- -....`
 6. `buscar(String)` separa os codigos por espacos, traduz cada grupo e usa `/` como espaco entre palavras.
 7. `exibir()` mostra a arvore hierarquicamente deitada para o lado.
 
-## Restricoes observadas
-- Nao sao usados `charAt`, `substring`, `toUpperCase`, `equals`, `split`, `StringBuilder` ou colecoes.
-- Ha uso de `java.util.Scanner` (`nextLine`, `next`, `hasNext`, `useDelimiter`, `close`) e `String.length()`; `System.out` e usado para exibir as informacoes.
-- **Confirme com o professor se `Scanner.useDelimiter("")` e permitido.** O enunciado permite Scanner, mas restringe fortemente outros recursos da API Java. Sem uma forma permitida de ler os caracteres de uma `String`, nao e possivel percorrer uma mensagem caractere por caractere.
-- Este exemplo nao converte acentos nem pontuacao, que nao constam da tabela solicitada.
